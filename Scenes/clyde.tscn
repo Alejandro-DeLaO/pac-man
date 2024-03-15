@@ -1,0 +1,264 @@
+[gd_scene load_steps=18 format=3 uid="uid://bxgk3pwru8n1r"]
+
+[ext_resource type="Texture2D" uid="uid://dhqhdyxgptftu" path="res://Assets/General/general_sprite_sheet.png" id="1_cfx8b"]
+[ext_resource type="Script" path="res://Scripts/Ghosts/Clyde/clyde.gd" id="1_lhbqq"]
+[ext_resource type="Script" path="res://Scripts/Util/StateMachine.gd" id="2_sm6xm"]
+[ext_resource type="Script" path="res://Scripts/Ghosts/Clyde/States/ClydeChase.gd" id="4_vkqh6"]
+[ext_resource type="Script" path="res://Scripts/Ghosts/Clyde/States/ClydeScatter.gd" id="5_atev3"]
+[ext_resource type="Script" path="res://Scripts/Ghosts/Idle.gd" id="6_jusrp"]
+[ext_resource type="Script" path="res://Scripts/Ghosts/Frightened.gd" id="7_qa4v3"]
+[ext_resource type="Script" path="res://Scripts/Ghosts/BackHome.gd" id="8_w1i28"]
+
+[sub_resource type="Animation" id="Animation_h0v5g"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("BodySprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [107]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("EyeSprite:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [84]
+}
+
+[sub_resource type="Animation" id="Animation_moygv"]
+resource_name = "down"
+length = 0.40001
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("BodySprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [111, 112]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("EyeSprite:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [86]
+}
+
+[sub_resource type="Animation" id="Animation_3sp4j"]
+resource_name = "ending_fright"
+length = 0.80001
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("BodySprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.4, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [68, 69, 70, 71]
+}
+
+[sub_resource type="Animation" id="Animation_kamf4"]
+resource_name = "frightened"
+length = 0.40001
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("BodySprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [68, 69]
+}
+
+[sub_resource type="Animation" id="Animation_vu6r6"]
+resource_name = "left"
+length = 0.40001
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("BodySprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [107, 108]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("EyeSprite:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [84]
+}
+
+[sub_resource type="Animation" id="Animation_vslui"]
+resource_name = "right"
+length = 0.40001
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("BodySprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [105, 106]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("EyeSprite:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [83]
+}
+
+[sub_resource type="Animation" id="Animation_g0qho"]
+resource_name = "up"
+length = 0.40001
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("BodySprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [109, 110]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("EyeSprite:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [85]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_31umq"]
+_data = {
+"RESET": SubResource("Animation_h0v5g"),
+"down": SubResource("Animation_moygv"),
+"ending_fright": SubResource("Animation_3sp4j"),
+"frightened": SubResource("Animation_kamf4"),
+"left": SubResource("Animation_vu6r6"),
+"right": SubResource("Animation_vslui"),
+"up": SubResource("Animation_g0qho")
+}
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_lb5ej"]
+radius = 6.9
+
+[node name="Clyde" type="CharacterBody2D"]
+collision_layer = 32
+collision_mask = 17
+script = ExtResource("1_lhbqq")
+
+[node name="BodySprite" type="Sprite2D" parent="."]
+texture = ExtResource("1_cfx8b")
+hframes = 15
+vframes = 15
+frame = 107
+
+[node name="EyeSprite" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("1_cfx8b")
+offset = Vector2(2.08165e-12, 2.08165e-12)
+hframes = 15
+vframes = 15
+frame = 84
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_31umq")
+}
+
+[node name="NavigationAgent2D" type="NavigationAgent2D" parent="."]
+path_desired_distance = 4.0
+target_desired_distance = 1.0
+path_postprocessing = 1
+debug_use_custom = true
+debug_path_custom_color = Color(1, 0.564706, 0, 1)
+debug_path_custom_point_size = 1.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, -1)
+shape = SubResource("CircleShape2D_lb5ej")
+
+[node name="StateMachine" type="Node" parent="." node_paths=PackedStringArray("starting_state")]
+script = ExtResource("2_sm6xm")
+starting_state = NodePath("Idle")
+
+[node name="Chase" type="Node" parent="StateMachine" node_paths=PackedStringArray("scatter_state")]
+script = ExtResource("4_vkqh6")
+scatter_state = NodePath("../Scatter")
+animation_name = "left"
+
+[node name="Scatter" type="Node" parent="StateMachine" node_paths=PackedStringArray("chase_state")]
+script = ExtResource("5_atev3")
+chase_state = NodePath("../Chase")
+
+[node name="Idle" type="Node" parent="StateMachine" node_paths=PackedStringArray("chase_state")]
+script = ExtResource("6_jusrp")
+chase_state = NodePath("../Chase")
+wait_time = 14.0
+
+[node name="Frightened" type="Node" parent="StateMachine" node_paths=PackedStringArray("chase_state")]
+script = ExtResource("7_qa4v3")
+chase_state = NodePath("../Chase")
+animation_name = "frightened"
+
+[node name="BackHome" type="Node" parent="StateMachine" node_paths=PackedStringArray("chase_state")]
+script = ExtResource("8_w1i28")
+chase_state = NodePath("../Chase")

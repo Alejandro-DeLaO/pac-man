@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://bwoqclw0o75na"]
+
+[ext_resource type="Script" path="res://Scripts/Util/Pellet.gd" id="1_3ecpx"]
+[ext_resource type="Texture2D" uid="uid://dhqhdyxgptftu" path="res://Assets/General/general_sprite_sheet.png" id="1_x2d7b"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vnylw"]
+size = Vector2(6, 6)
+
+[node name="bigPellet" type="Area2D"]
+collision_layer = 8
+script = ExtResource("1_3ecpx")
+can_eat_ghosts = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_x2d7b")
+offset = Vector2(0.5, 2.08165e-12)
+hframes = 15
+vframes = 15
+frame = 26
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_vnylw")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

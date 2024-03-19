@@ -8,6 +8,7 @@ var wait_time: float
 var wait_timer: float
 
 func enter() -> void:
+	super()
 	wait_timer = wait_time
 
 

@@ -13,14 +13,15 @@ var PACMAN: CharacterBody2D
 @export
 var tile_map : TileMap
 
-@onready var state_machine = $StateMachine
-@onready var animation_player = $AnimationPlayer
-@onready var navigation_agent = $NavigationAgent2D
-@onready var frightened_state = $StateMachine/Frightened
-@onready var back_home_state = $StateMachine/BackHome
-@onready var eye_sprite = $EyeSprite
-@onready var body_sprite = $BodySprite
+@onready var state_machine : StateMachine = $StateMachine
+@onready var animation_player : AnimationPlayer = $AnimationPlayer
+@onready var navigation_agent : NavigationAgent2D = $NavigationAgent2D
+@onready var eye_sprite : Sprite2D = $EyeSprite
+@onready var body_sprite : Sprite2D = $BodySprite
 
+@onready var frightened_state : State = $StateMachine/Frightened
+@onready var back_home_state : State = $StateMachine/BackHome
+@onready var idle_state : State = $StateMachine/Idle
 
 func _ready():
 	state_machine.init(self)

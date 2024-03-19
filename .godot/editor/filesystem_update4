@@ -1,0 +1,15 @@
+res://Scenes/game.tscn
+res://Scripts/Util/GameManager.gd
+res://Scenes/inky.tscn
+res://Scripts/Util/Constants.gd
+res://Scripts/Util/Ghost.gd
+res://Scenes/player.tscn
+res://Scripts/Player/Player.gd
+res://Scripts/Util/StateMachine.gd
+res://Scripts/Util/UI.gd
+res://Scenes/pinky.tscn
+res://Scenes/blinky.tscn
+res://Scenes/clyde.tscn
+res://Scripts/Ghosts/Idle.gd
+res://Scripts/Ghosts/Blinky/States/BlinkyIdle.gd
+res://Scripts/Player/States/DeathState.gd

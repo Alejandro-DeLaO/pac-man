@@ -5,20 +5,23 @@ class_name Player
 const SPEED = 70
 
 @onready
-var state_machine = $StateMachine
+var state_machine : StateMachine = $StateMachine
 @onready
-var sprite = $Sprite2D
+var sprite : Sprite2D = $Sprite2D
 @onready
-var animation_player = $AnimationPlayer
+var animation_player : AnimationPlayer = $AnimationPlayer
 @onready
-var back_ray_cast = $BackRayCast2D
+var back_ray_cast : RayCast2D = $BackRayCast2D
 @onready
-var middle_ray_cast = $MiddleRayCast2D
+var middle_ray_cast : RayCast2D = $MiddleRayCast2D
 @onready
-var front_ray_cast = $FrontRayCast2D
+var front_ray_cast : RayCast2D = $FrontRayCast2D
 
-@export
-var DeathState : State
+@onready
+var death_state : State = $StateMachine/DeathState
+
+@onready
+var idle_state : State = $StateMachine/IdleState
 
 #Called when the player has entered the scene tree
 func _ready() -> void:

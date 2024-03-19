@@ -15,6 +15,10 @@ run/main_scene="res://Scenes/game.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
 
+[autoload]
+
+Constants="*res://Scripts/Util/Constants.gd"
+
 [debug]
 
 shapes/navigation/agent_path_point_size=1.0

@@ -13,6 +13,7 @@ var current_target : int
 var tile_map : TileMap
 
 func enter() -> void:
+	super()
 	tile_map = parent.tile_map
 	navigation_agent = parent.navigation_agent
 	wait_timer = wait_time
@@ -24,6 +25,7 @@ func enter() -> void:
 	NavigationServer2D.map_force_update(NavigationServer2D.get_maps()[0])
 
 func exit() -> void:
+	super()
 	navigation_agent.target_desired_distance = 1
 	navigation_agent.path_postprocessing = NavigationPathQueryParameters2D.PATH_POSTPROCESSING_EDGECENTERED
 

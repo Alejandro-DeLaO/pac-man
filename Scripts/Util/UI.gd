@@ -9,7 +9,9 @@ class_name UI
 
 func game_won():
 	center_container.show()
-
+func game_reset():
+	center_container.hide()
+	
 func update_score(score : int):
 	scoreLabel.text = "1 up \n" + str(score)
 	label.text = "1 up \n" + str(score)

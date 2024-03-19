@@ -253,6 +253,7 @@ chase_state = NodePath("../Chase")
 script = ExtResource("6_jusrp")
 chase_state = NodePath("../Chase")
 wait_time = 14.0
+animation_name = "RESET"
 
 [node name="Frightened" type="Node" parent="StateMachine" node_paths=PackedStringArray("chase_state")]
 script = ExtResource("7_qa4v3")

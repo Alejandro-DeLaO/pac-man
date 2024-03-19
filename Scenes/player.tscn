@@ -122,10 +122,9 @@ _data = {
 [sub_resource type="CircleShape2D" id="CircleShape2D_jfn7b"]
 radius = 6.9
 
-[node name="Player" type="CharacterBody2D" node_paths=PackedStringArray("DeathState")]
+[node name="Player" type="CharacterBody2D"]
 safe_margin = 0.001
 script = ExtResource("1_0ghv5")
-DeathState = NodePath("StateMachine/DeathState")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 z_index = 1
@@ -195,6 +194,7 @@ script = ExtResource("4_khh7x")
 left_state = NodePath("../LeftState")
 right_state = NodePath("../RightState")
 wait_time = 4.0
+animation_name = "RESET"
 
 [node name="DeathState" type="Node" parent="StateMachine"]
 script = ExtResource("9_0ifbw")

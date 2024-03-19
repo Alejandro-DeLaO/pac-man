@@ -228,6 +228,7 @@ libraries = {
 path_desired_distance = 4.0
 target_desired_distance = 1.0
 path_postprocessing = 1
+debug_enabled = true
 debug_use_custom = true
 debug_path_custom_color = Color(0, 1, 1, 1)
 debug_path_custom_point_size = 1.0
@@ -253,6 +254,7 @@ chase_state = NodePath("../Chase")
 script = ExtResource("6_ns8du")
 chase_state = NodePath("../Chase")
 wait_time = 10.0
+animation_name = "RESET"
 
 [node name="Frightened" type="Node" parent="StateMachine" node_paths=PackedStringArray("chase_state")]
 script = ExtResource("7_mhppg")

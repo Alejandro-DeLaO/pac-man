@@ -1,0 +1,738 @@
+[gd_scene load_steps=3 format=3 uid="uid://v0xm06wb1tjx"]
+
+[ext_resource type="PackedScene" uid="uid://dqhb1unyqji6w" path="res://Scenes/pellet.tscn" id="1_ke74o"]
+[ext_resource type="PackedScene" uid="uid://bwoqclw0o75na" path="res://Scenes/big_pellet.tscn" id="2_asoki"]
+
+[node name="Pellets" type="Node2D"]
+
+[node name="Pellet" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(124, 220)
+
+[node name="Pellet2" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(124, 212)
+
+[node name="Pellet3" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(124, 204)
+
+[node name="Pellet221" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(100, 212)
+
+[node name="Pellet222" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(100, 204)
+
+[node name="Pellet4" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(124, 196)
+
+[node name="Pellet5" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(132, 196)
+
+[node name="Pellet6" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(140, 196)
+
+[node name="Pellet7" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(148, 196)
+
+[node name="Pellet8" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(132, 220)
+
+[node name="Pellet9" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(140, 220)
+
+[node name="Pellet10" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(148, 220)
+
+[node name="Pellet11" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(156, 220)
+
+[node name="Pellet12" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(156, 196)
+
+[node name="Pellet13" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(164, 196)
+
+[node name="Pellet14" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(172, 196)
+
+[node name="Pellet15" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(180, 196)
+
+[node name="Pellet16" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(188, 196)
+
+[node name="Pellet30" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(196, 196)
+
+[node name="Pellet31" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(204, 196)
+
+[node name="Pellet36" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(196, 220)
+
+[node name="Pellet37" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(204, 220)
+
+[node name="Pellet17" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(148, 236)
+
+[node name="Pellet18" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(124, 244)
+
+[node name="Pellet19" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(132, 244)
+
+[node name="Pellet20" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(140, 244)
+
+[node name="Pellet21" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(148, 244)
+
+[node name="Pellet194" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(76, 244)
+
+[node name="Pellet195" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(84, 244)
+
+[node name="Pellet196" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(92, 244)
+
+[node name="Pellet197" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(100, 244)
+
+[node name="Pellet22" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(148, 228)
+
+[node name="Pellet204" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(76, 236)
+
+[node name="Pellet205" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(76, 228)
+
+[node name="Pellet206" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(52, 236)
+
+[node name="Pellet207" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(52, 228)
+
+[node name="Pellet208" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(28, 236)
+
+[node name="Pellet209" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(28, 228)
+
+[node name="Pellet210" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(28, 220)
+
+[node name="Pellet216" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(20, 220)
+
+[node name="Pellet107" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(76, 92)
+
+[node name="Pellet131" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(76, 84)
+
+[node name="Pellet154" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(148, 92)
+
+[node name="Pellet155" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(148, 84)
+
+[node name="Pellet156" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(172, 92)
+
+[node name="Pellet157" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(172, 84)
+
+[node name="Pellet158" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(212, 92)
+
+[node name="Pellet159" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(212, 84)
+
+[node name="Pellet136" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(52, 92)
+
+[node name="Pellet138" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(52, 84)
+
+[node name="Pellet139" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(12, 92)
+
+[node name="Pellet150" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(12, 84)
+
+[node name="Pellet151" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(12, 68)
+
+[node name="Pellet153" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(12, 52)
+
+[node name="Pellet160" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(52, 68)
+
+[node name="Pellet161" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(52, 60)
+
+[node name="Pellet162" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(52, 52)
+
+[node name="Pellet163" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(100, 68)
+
+[node name="Pellet164" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(100, 60)
+
+[node name="Pellet165" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(100, 52)
+
+[node name="Pellet166" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(124, 68)
+
+[node name="Pellet167" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(124, 60)
+
+[node name="Pellet168" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(124, 52)
+
+[node name="Pellet169" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(172, 68)
+
+[node name="Pellet170" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(172, 60)
+
+[node name="Pellet171" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(172, 52)
+
+[node name="Pellet172" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(212, 68)
+
+[node name="Pellet174" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(212, 52)
+
+[node name="Pellet73" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(124, 260)
+
+[node name="Pellet74" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(124, 252)
+
+[node name="Pellet217" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(100, 260)
+
+[node name="Pellet218" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(100, 252)
+
+[node name="Pellet219" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(12, 260)
+
+[node name="Pellet220" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(12, 252)
+
+[node name="Pellet23" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(172, 228)
+
+[node name="Pellet24" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(172, 220)
+
+[node name="Pellet25" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(172, 212)
+
+[node name="Pellet28" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(172, 244)
+
+[node name="Pellet41" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(180, 244)
+
+[node name="Pellet42" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(188, 244)
+
+[node name="Pellet29" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(172, 236)
+
+[node name="Pellet38" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(196, 228)
+
+[node name="Pellet39" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(196, 244)
+
+[node name="Pellet43" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(204, 244)
+
+[node name="Pellet44" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(212, 244)
+
+[node name="Pellet198" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(12, 244)
+
+[node name="Pellet199" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(20, 244)
+
+[node name="Pellet200" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(28, 244)
+
+[node name="Pellet201" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(36, 244)
+
+[node name="Pellet202" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(44, 244)
+
+[node name="Pellet203" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(52, 244)
+
+[node name="Pellet48" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(164, 268)
+
+[node name="Pellet49" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(172, 268)
+
+[node name="Pellet50" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(180, 268)
+
+[node name="Pellet51" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(188, 268)
+
+[node name="Pellet52" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(196, 268)
+
+[node name="Pellet53" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(204, 268)
+
+[node name="Pellet54" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(116, 268)
+
+[node name="Pellet55" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(124, 268)
+
+[node name="Pellet56" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(132, 268)
+
+[node name="Pellet57" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(140, 268)
+
+[node name="Pellet58" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(148, 268)
+
+[node name="Pellet59" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(156, 268)
+
+[node name="Pellet40" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(196, 236)
+
+[node name="Pellet45" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(212, 252)
+
+[node name="Pellet46" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(212, 268)
+
+[node name="Pellet60" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(60, 268)
+
+[node name="Pellet61" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(68, 268)
+
+[node name="Pellet62" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(76, 268)
+
+[node name="Pellet63" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(84, 268)
+
+[node name="Pellet64" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(92, 268)
+
+[node name="Pellet65" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(100, 268)
+
+[node name="Pellet66" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(12, 268)
+
+[node name="Pellet67" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(20, 268)
+
+[node name="Pellet68" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(28, 268)
+
+[node name="Pellet69" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(36, 268)
+
+[node name="Pellet70" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(44, 268)
+
+[node name="Pellet71" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(52, 268)
+
+[node name="Pellet72" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(108, 268)
+
+[node name="Pellet75" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(164, 76)
+
+[node name="Pellet76" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(172, 76)
+
+[node name="Pellet77" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(180, 76)
+
+[node name="Pellet78" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(188, 76)
+
+[node name="Pellet79" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(196, 76)
+
+[node name="Pellet80" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(204, 76)
+
+[node name="Pellet81" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(116, 76)
+
+[node name="Pellet82" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(124, 76)
+
+[node name="Pellet83" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(132, 76)
+
+[node name="Pellet84" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(140, 76)
+
+[node name="Pellet85" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(148, 76)
+
+[node name="Pellet86" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(156, 76)
+
+[node name="Pellet87" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(212, 76)
+
+[node name="Pellet88" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(60, 76)
+
+[node name="Pellet89" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(68, 76)
+
+[node name="Pellet90" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(76, 76)
+
+[node name="Pellet91" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(84, 76)
+
+[node name="Pellet92" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(92, 76)
+
+[node name="Pellet93" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(100, 76)
+
+[node name="Pellet94" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(12, 76)
+
+[node name="Pellet95" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(20, 76)
+
+[node name="Pellet96" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(28, 76)
+
+[node name="Pellet97" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(36, 76)
+
+[node name="Pellet98" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(44, 76)
+
+[node name="Pellet99" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(52, 76)
+
+[node name="Pellet100" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(108, 76)
+
+[node name="Pellet126" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(172, 100)
+
+[node name="Pellet127" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(180, 100)
+
+[node name="Pellet128" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(188, 100)
+
+[node name="Pellet129" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(196, 100)
+
+[node name="Pellet130" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(204, 100)
+
+[node name="Pellet132" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(124, 100)
+
+[node name="Pellet133" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(132, 100)
+
+[node name="Pellet134" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(140, 100)
+
+[node name="Pellet135" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(148, 100)
+
+[node name="Pellet137" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(212, 100)
+
+[node name="Pellet140" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(76, 100)
+
+[node name="Pellet141" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(84, 100)
+
+[node name="Pellet142" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(92, 100)
+
+[node name="Pellet143" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(100, 100)
+
+[node name="Pellet144" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(12, 100)
+
+[node name="Pellet145" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(20, 100)
+
+[node name="Pellet146" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(28, 100)
+
+[node name="Pellet147" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(36, 100)
+
+[node name="Pellet148" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(44, 100)
+
+[node name="Pellet149" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(52, 100)
+
+[node name="Pellet101" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(164, 44)
+
+[node name="Pellet102" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(172, 44)
+
+[node name="Pellet103" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(180, 44)
+
+[node name="Pellet104" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(188, 44)
+
+[node name="Pellet105" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(196, 44)
+
+[node name="Pellet106" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(204, 44)
+
+[node name="Pellet108" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(124, 44)
+
+[node name="Pellet109" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(132, 44)
+
+[node name="Pellet110" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(140, 44)
+
+[node name="Pellet111" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(148, 44)
+
+[node name="Pellet112" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(156, 44)
+
+[node name="Pellet113" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(212, 44)
+
+[node name="Pellet114" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(60, 44)
+
+[node name="Pellet115" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(68, 44)
+
+[node name="Pellet116" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(76, 44)
+
+[node name="Pellet117" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(84, 44)
+
+[node name="Pellet118" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(92, 44)
+
+[node name="Pellet119" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(100, 44)
+
+[node name="Pellet120" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(12, 44)
+
+[node name="Pellet121" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(20, 44)
+
+[node name="Pellet122" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(28, 44)
+
+[node name="Pellet123" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(36, 44)
+
+[node name="Pellet124" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(44, 44)
+
+[node name="Pellet125" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(52, 44)
+
+[node name="Pellet47" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(212, 260)
+
+[node name="Pellet26" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(172, 204)
+
+[node name="Pellet32" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(212, 196)
+
+[node name="Pellet175" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(12, 196)
+
+[node name="Pellet176" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(20, 196)
+
+[node name="Pellet177" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(28, 196)
+
+[node name="Pellet178" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(36, 196)
+
+[node name="Pellet179" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(44, 196)
+
+[node name="Pellet180" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(52, 196)
+
+[node name="Pellet181" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(60, 196)
+
+[node name="Pellet182" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(68, 196)
+
+[node name="Pellet183" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(76, 196)
+
+[node name="Pellet184" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(84, 196)
+
+[node name="Pellet185" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(92, 196)
+
+[node name="Pellet186" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(100, 196)
+
+[node name="Pellet34" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(212, 212)
+
+[node name="Pellet35" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(212, 204)
+
+[node name="Pellet27" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(164, 220)
+
+[node name="Pellet187" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(52, 220)
+
+[node name="Pellet211" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(52, 212)
+
+[node name="Pellet212" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(52, 204)
+
+[node name="Pellet223" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(52, 180)
+
+[node name="Pellet224" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(52, 172)
+
+[node name="Pellet225" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(52, 188)
+
+[node name="Pellet226" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(52, 140)
+
+[node name="Pellet227" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(52, 164)
+
+[node name="Pellet228" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(52, 156)
+
+[node name="Pellet229" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(52, 148)
+
+[node name="Pellet230" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(52, 108)
+
+[node name="Pellet231" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(52, 132)
+
+[node name="Pellet232" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(52, 124)
+
+[node name="Pellet233" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(52, 116)
+
+[node name="Pellet234" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(172, 180)
+
+[node name="Pellet235" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(172, 172)
+
+[node name="Pellet236" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(172, 188)
+
+[node name="Pellet237" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(172, 140)
+
+[node name="Pellet238" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(172, 164)
+
+[node name="Pellet239" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(172, 156)
+
+[node name="Pellet240" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(172, 148)
+
+[node name="Pellet241" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(172, 108)
+
+[node name="Pellet242" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(172, 132)
+
+[node name="Pellet243" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(172, 124)
+
+[node name="Pellet244" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(172, 116)
+
+[node name="Pellet214" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(12, 212)
+
+[node name="Pellet215" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(12, 204)
+
+[node name="Pellet188" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(60, 220)
+
+[node name="Pellet189" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(68, 220)
+
+[node name="Pellet190" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(76, 220)
+
+[node name="Pellet191" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(84, 220)
+
+[node name="Pellet192" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(100, 220)
+
+[node name="Pellet193" parent="." instance=ExtResource("1_ke74o")]
+position = Vector2(92, 220)
+
+[node name="bigPellet" parent="." instance=ExtResource("2_asoki")]
+position = Vector2(12, 220)
+
+[node name="bigPellet2" parent="." instance=ExtResource("2_asoki")]
+position = Vector2(212, 220)
+
+[node name="bigPellet3" parent="." instance=ExtResource("2_asoki")]
+position = Vector2(12, 60)
+
+[node name="bigPellet4" parent="." instance=ExtResource("2_asoki")]
+position = Vector2(212, 60)
